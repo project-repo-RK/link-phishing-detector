@@ -1,0 +1,4 @@
+# Extra dependencies for running the development notebook.
+-r requirements.txt
+jupyterlab>=4,<5
+matplotlib>=3.7,<4

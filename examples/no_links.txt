@@ -1,0 +1,5 @@
+Subject: Payment request
+
+Please send the payment using the account details in the attached document.
+
+This fictional email has no links. The URL model cannot assess it.

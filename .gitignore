@@ -1,0 +1,8 @@
+# Exclude local environments, private email samples, and temporary Python files.
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+private_emails/
+*.eml
+.DS_Store

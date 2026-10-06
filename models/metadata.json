@@ -1,0 +1,192 @@
+{
+  "sklearn_version": "1.8.0",
+  "dataset_sha256": "a4b16abbd8610e4f53fd63e8eb3da793157a961111ed5e9d9d8afa21af866995",
+  "training_rows": 7738,
+  "test_rows": 3317,
+  "class_labels": {
+    "-1": "phishing",
+    "1": "legitimate"
+  },
+  "full_features": [
+    "having_IP_Address",
+    "URL_Length",
+    "Shortining_Service",
+    "having_At_Symbol",
+    "double_slash_redirecting",
+    "Prefix_Suffix",
+    "having_Sub_Domain",
+    "SSLfinal_State",
+    "Domain_registeration_length",
+    "Favicon",
+    "port",
+    "HTTPS_token",
+    "Request_URL",
+    "URL_of_Anchor",
+    "Links_in_tags",
+    "SFH",
+    "Submitting_to_email",
+    "Abnormal_URL",
+    "Redirect",
+    "on_mouseover",
+    "RightClick",
+    "popUpWidnow",
+    "Iframe",
+    "age_of_domain",
+    "DNSRecord",
+    "web_traffic",
+    "Page_Rank",
+    "Google_Index",
+    "Links_pointing_to_page",
+    "Statistical_report"
+  ],
+  "url_features": [
+    "having_IP_Address",
+    "URL_Length",
+    "Shortining_Service",
+    "having_At_Symbol",
+    "double_slash_redirecting",
+    "Prefix_Suffix",
+    "having_Sub_Domain",
+    "HTTPS_token"
+  ],
+  "allowed_values": {
+    "having_IP_Address": [
+      -1,
+      1
+    ],
+    "URL_Length": [
+      -1,
+      0,
+      1
+    ],
+    "Shortining_Service": [
+      -1,
+      1
+    ],
+    "having_At_Symbol": [
+      -1,
+      1
+    ],
+    "double_slash_redirecting": [
+      -1,
+      1
+    ],
+    "Prefix_Suffix": [
+      -1,
+      1
+    ],
+    "having_Sub_Domain": [
+      -1,
+      0,
+      1
+    ],
+    "SSLfinal_State": [
+      -1,
+      0,
+      1
+    ],
+    "Domain_registeration_length": [
+      -1,
+      1
+    ],
+    "Favicon": [
+      -1,
+      1
+    ],
+    "port": [
+      -1,
+      1
+    ],
+    "HTTPS_token": [
+      -1,
+      1
+    ],
+    "Request_URL": [
+      -1,
+      1
+    ],
+    "URL_of_Anchor": [
+      -1,
+      0,
+      1
+    ],
+    "Links_in_tags": [
+      -1,
+      0,
+      1
+    ],
+    "SFH": [
+      -1,
+      0,
+      1
+    ],
+    "Submitting_to_email": [
+      -1,
+      1
+    ],
+    "Abnormal_URL": [
+      -1,
+      1
+    ],
+    "Redirect": [
+      0,
+      1
+    ],
+    "on_mouseover": [
+      -1,
+      1
+    ],
+    "RightClick": [
+      -1,
+      1
+    ],
+    "popUpWidnow": [
+      -1,
+      1
+    ],
+    "Iframe": [
+      -1,
+      1
+    ],
+    "age_of_domain": [
+      -1,
+      1
+    ],
+    "DNSRecord": [
+      -1,
+      1
+    ],
+    "web_traffic": [
+      -1,
+      0,
+      1
+    ],
+    "Page_Rank": [
+      -1,
+      1
+    ],
+    "Google_Index": [
+      -1,
+      1
+    ],
+    "Links_pointing_to_page": [
+      -1,
+      0,
+      1
+    ],
+    "Statistical_report": [
+      -1,
+      1
+    ]
+  },
+  "parameters": {
+    "n_estimators": 250,
+    "max_depth": 22,
+    "class_weight": "balanced_subsample",
+    "random_state": 42
+  },
+  "split": "70/30, random_state=42, no stratification; original notebook split",
+  "probability_note": "Uncalibrated random-forest scores, not validated live-website probabilities.",
+  "model_selection_note": "Full-model settings selected in the original notebook; URL-only settings reused, not independently tuned.",
+  "collection_model": "See collected_features.json; runtime subsets use only actual measured features."
+}

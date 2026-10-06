@@ -1,0 +1,49 @@
+{
+  "features": [
+    "having_IP_Address",
+    "URL_Length",
+    "Shortining_Service",
+    "having_At_Symbol",
+    "double_slash_redirecting",
+    "Prefix_Suffix",
+    "having_Sub_Domain",
+    "SSLfinal_State",
+    "Domain_registeration_length",
+    "Favicon",
+    "HTTPS_token",
+    "Request_URL",
+    "URL_of_Anchor",
+    "Links_in_tags",
+    "SFH",
+    "Submitting_to_email",
+    "on_mouseover",
+    "RightClick",
+    "popUpWidnow",
+    "Iframe",
+    "age_of_domain",
+    "DNSRecord"
+  ],
+  "metrics": {
+    "accuracy": 0.9493518239372928,
+    "f1_legitimate_original_metric": 0.9553666312433581,
+    "f1_phishing": 0.9414634146341463,
+    "precision_phishing": 0.9368932038834952,
+    "recall_phishing": 0.946078431372549,
+    "auroc_phishing": 0.989906735589948,
+    "confusion_matrix_labels": [
+      -1,
+      1
+    ],
+    "confusion_matrix": [
+      [
+        1351,
+        77
+      ],
+      [
+        91,
+        1798
+      ]
+    ]
+  },
+  "note": "Historical precomputed-feature test only; not live-URL extractor accuracy."
+}

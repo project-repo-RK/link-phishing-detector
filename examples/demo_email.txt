@@ -1,0 +1,8 @@
+From: Account Team <notice@example.com>
+Reply-To: Support <help@example.net>
+Subject: Account verification
+
+Please review your account details using this link:
+http://https-account.verify.example.com//login?account=123456789012345678901234567890
+
+This is a fictional demonstration message. Its score is not a ground-truth label.

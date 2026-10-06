@@ -1,0 +1,112 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.9201085318058486,
+    "f1_legitimate_original_metric": 0.9295774647887324,
+    "f1_phishing": 0.907697666318356,
+    "precision_phishing": 0.9029799029799029,
+    "recall_phishing": 0.9124649859943977,
+    "auroc_phishing": 0.9774525744654665,
+    "confusion_matrix_labels": [
+      -1,
+      1
+    ],
+    "confusion_matrix": [
+      [
+        1303,
+        125
+      ],
+      [
+        140,
+        1749
+      ]
+    ]
+  },
+  "knn": {
+    "accuracy": 0.9523665963219777,
+    "f1_legitimate_original_metric": 0.9586387434554974,
+    "f1_phishing": 0.9438521677327647,
+    "precision_phishing": 0.9581529581529582,
+    "recall_phishing": 0.9299719887955182,
+    "auroc_phishing": 0.9496339562823541,
+    "confusion_matrix_labels": [
+      -1,
+      1
+    ],
+    "confusion_matrix": [
+      [
+        1328,
+        100
+      ],
+      [
+        58,
+        1831
+      ]
+    ]
+  },
+  "decision_tree": {
+    "accuracy": 0.9589990955682846,
+    "f1_legitimate_original_metric": 0.9641350210970464,
+    "f1_phishing": 0.952146375791696,
+    "precision_phishing": 0.9568599717114569,
+    "recall_phishing": 0.9474789915966386,
+    "auroc_phishing": 0.9732775852532649,
+    "confusion_matrix_labels": [
+      -1,
+      1
+    ],
+    "confusion_matrix": [
+      [
+        1353,
+        75
+      ],
+      [
+        61,
+        1828
+      ]
+    ]
+  },
+  "random_forest_full": {
+    "accuracy": 0.968947844437745,
+    "f1_legitimate_original_metric": 0.9730013106159895,
+    "f1_phishing": 0.963462220645619,
+    "precision_phishing": 0.9762760603882099,
+    "recall_phishing": 0.9509803921568627,
+    "auroc_phishing": 0.9959473466464406,
+    "confusion_matrix_labels": [
+      -1,
+      1
+    ],
+    "confusion_matrix": [
+      [
+        1358,
+        70
+      ],
+      [
+        33,
+        1856
+      ]
+    ]
+  },
+  "random_forest_url_only": {
+    "accuracy": 0.7220379861320471,
+    "f1_legitimate_original_metric": 0.7310385064177363,
+    "f1_phishing": 0.7124142233312539,
+    "precision_phishing": 0.6422947131608548,
+    "recall_phishing": 0.7997198879551821,
+    "auroc_phishing": 0.8082563358853335,
+    "confusion_matrix_labels": [
+      -1,
+      1
+    ],
+    "confusion_matrix": [
+      [
+        1142,
+        286
+      ],
+      [
+        636,
+        1253
+      ]
+    ]
+  }
+}
