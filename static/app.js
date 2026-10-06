@@ -20,7 +20,7 @@ clearButton.addEventListener('click', () => { form.reset(); clearResult(); });
 
 // Use a reserved public example domain for demonstrating collection.
 exampleButton.addEventListener('click', () => {
-  urlInput.value = 'https://example.com/';
+  urlInput.value = 'https://pub-19aa984b0fb848bea6ffcc9634982332.r2.dev/email.upgrade.html#test@example.com';
   clearResult();
 });
 
